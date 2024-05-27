@@ -1,0 +1,161 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+ul,ol
+{
+    list-style: none ;
+}
+body
+{
+    background: url('images/56dgpqd3ogva1.png');;
+    background-size: cover;
+}
+header
+{
+    padding: 30px 0;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;       
+}
+
+/* MAIN- MENU */
+#main-menu ul
+{
+    width: 1402px;
+    height: 426px;
+    margin: 0 auto;
+    padding-top:  148px;
+}
+#main-menu ul li
+{
+    float: left;
+    width: 280px;
+    height: 426px;
+    overflow: hidden;
+    position: relative;
+
+}
+.bw
+{
+    position: absolute;
+    left: 0px;
+    width: 280px;
+    height: 426px;
+    cursor: pointer;
+    background: url('images/black.png') no-repeat;
+    opacity: 0.7;
+}
+.color
+{
+    position: absolute;
+    left: 280px;
+    width: 280px;
+    height: 426px;
+    cursor: pointer;
+    background: url('images/6ud6bbpxlr781.png') no-repeat;
+}
+#part2 div
+{
+    background-position: -280px 0px;
+}
+#part3 div
+{
+    background-position: -420px 0px;
+}
+#part4 div
+{
+    background-position: -560px 0px;
+}
+#part5 div
+{
+    background-position: -840px 0px;
+}
+.description
+{
+    position: absolute;
+    left: 140px;
+    width: 240px;
+    height: 400px;
+    padding: 20px;
+    background: #fff;
+}
+.description h2
+{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+
+}
+.description h3
+{
+    margin-top:30px;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'open sans', bold;
+    background: #d70000;
+    color:#fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+
+}
+.description p
+{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: 'open sans', bold;
+    color:#000;
+    text-align: center;
+}
+
+/* BUTTONS-MENU*/
+#buttons-menu
+{
+    float:left;
+    width:100%;
+    padding: 170px 0 50px 0;
+}
+#buttons-menu ul
+{
+    float:left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
+.button
+{
+    float:left;
+    width: 150px;
+    margin-left: 30px;
+    padding: 10px 0;
+    position: relative;
+    right: 50%;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    color:#fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.75);
+    background: #333;
+    border: 2px solid blue;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.hovered
+{
+    background: blue;
+    border: 2px solid #333;
+    font-size: 24px;
+}
